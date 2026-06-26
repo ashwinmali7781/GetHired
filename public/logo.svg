@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square bg -->
+  <rect width="48" height="48" rx="13" fill="url(#g1)"/>
+  <!-- Briefcase body -->
+  <rect x="9" y="19" width="30" height="20" rx="3.5" fill="white" fill-opacity="0.95"/>
+  <!-- Briefcase handle -->
+  <path d="M18 19V16.5C18 14.567 19.567 13 21.5 13H26.5C28.433 13 30 14.567 30 16.5V19" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- Center divider line -->
+  <line x1="9" y1="28" x2="39" y2="28" stroke="url(#g2)" stroke-width="1.8"/>
+  <!-- Checkmark inside briefcase -->
+  <path d="M19.5 28L22.5 31L28.5 25" stroke="#6366f1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
